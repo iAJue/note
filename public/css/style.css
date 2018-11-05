@@ -1,0 +1,96 @@
+body{
+	font-family: "Roboto Mono", Roboto, Noto, Helvetica, Arial, sans-serif;
+}
+.logo{
+	width:15%;
+}
+@media screen and (max-width: 768px) {
+	.logo{
+	width:50%;
+}
+}
+.logo-container{
+	text-align: center;
+	  padding-top: 50px;
+}
+.main-section {
+    background: url(../images/bg.svg) 50% 17vh no-repeat;
+}
+h1{
+	ont-weight: 400;
+    font-family: Helvetica;
+    font-size: 40px;
+    margin-top: 0px;
+}
+h4{
+	    font-weight: 400;
+    opacity: 0.78;
+    font-size: 16px;
+}
+.download_btn{
+	 margin-top: 100px;
+}
+.btn-lg{
+	    height: 50px;
+    width: 150px;
+        padding-top: 6px;
+}
+.link_group{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.main-meta-btn,.icon{
+	    color: white;
+    opacity: 0.78;
+    font-family: sans-serif;
+    text-decoration: none;
+        vertical-align: middle;
+}
+.icon{
+	font-size: 16px;
+}
+.link_single{
+	padding: 0 10px;
+}
+.feature{
+	margin-top: 60px;
+}
+.adv-item-icon {
+    float: left;
+    font-size: 40px;
+}
+@media (min-width: 1024px)
+.adv-item-detail {
+    padding-left: 46px;
+}
+@media (min-width: 600px)
+.adv-item-detail {
+    padding-left: 42px;
+}
+.adv-item-detail {
+	padding-top:5px;
+    padding-left: 45px;
+}
+.adv-item-detail-title{
+    font-weight: 600;
+        height: 32px;
+    line-height: 32px;
+}
+.adv-item-detail-desc{
+	
+	font-size: 14px;
+    line-height: 26px;
+}
+footer{
+	text-align: center;
+    background-color: #4f4f4f;
+    color: #dfdfdf;
+    font-family: "santi";
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    line-height: 25px;
+}
+.main-container{
+    padding-top: 80px;
+}

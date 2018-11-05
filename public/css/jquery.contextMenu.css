@@ -1,0 +1,50 @@
+.ui-context-menu {
+	list-style: none;
+	position: absolute;
+	z-index: 9999;
+	padding: 5px 0;
+	min-width: 80px;
+	margin: 0;
+	background-color: #fff;
+	border: 1px solid rgba(0, 0, 0, .15);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	-ms-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	-o-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.ui-context-menu .ui-context-menu-item {
+	margin: 0;
+	padding: 0;
+}
+
+.ui-context-menu .ui-context-menu-item a {
+	display: block;
+	padding: 0 10px;
+	white-space: nowrap;
+	text-decoration: none;
+}
+
+.ui-context-menu .ui-context-menu-item a:hover {
+	text-decoration: none;
+}
+
+.ui-context-menu .ui-context-menu-item .icon {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-right: 8px;
+	vertical-align: sub;
+	border: 0;
+}
