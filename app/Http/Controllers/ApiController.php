@@ -55,4 +55,14 @@ class ApiController extends Controller
 		Content::where('id', $request->id)->where('user_id', session('user.id'))->delete();
 	}
 
+	/**
+	 * 移动笔记
+	 *
+	 * @return void
+	 */
+	public function move(Request $request)
+	{
+		Content::where('id', $request->cid)->where('user_id', session('user.id'))->update(['folder_id' => $request->id]);
+	}
+
 }
