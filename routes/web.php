@@ -48,6 +48,7 @@ Route::group(['middleware' => ['check.login', 'home.login']], function () {
     Route::post('/api/rename', 'ApiController@rename');
     Route::post('/api/del', 'ApiController@del');
     Route::post('/api/delete', 'ApiController@delete');
+    Route::post('/api/move', 'ApiController@move');
 
 
 
