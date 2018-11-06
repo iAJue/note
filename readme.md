@@ -1,51 +1,42 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+## 萌音云笔记平台
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+[官网](https://note.52ecy.cn/ "官网") | [官方交流群](http://shang.qq.com/wpa/qunwpa?idkey=826e8e5961b8acf3eb7bb4fd8595a59e38deb618deaee70912dd0c4cd9f97457 "官方交流群") |  [Blog](https://www.52ecy.cn "Blog") | [GitHub](https://github.com/178146582/note "GitHub")
 
-## About Laravel
+**基于优雅的Laravel `+` 超难用的MDUI `=` 萌音云笔记，一个高效的在线云笔记、专注技术文档在线创作、阅读、分享和托管**
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+#### 项目起源
+某日，在[某社区官方交流群](http://shang.qq.com/wpa/qunwpa?idkey=826e8e5961b8acf3eb7bb4fd8595a59e38deb618deaee70912dd0c4cd9f97457 "某社区官方交流群")中 群主的RBQ 说了一句：
+> 帮我写一个云笔记呗
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+另外，由于博主剩下的时间不多了，很多计划中的功能便割舍了.....无奈╮(╯▽╰)╭
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
+好吧，一般我不喜欢介绍项目功能，你们自个发掘吧！
 
-## Learning Laravel
+## 安装需求
+* LNMP/AMP With PHP5.6.4+
+* OpenSSL、PDO、Mbstring、Tokenizer、XML、fileinfo
+* Composer
 
-Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
+下载
+------------
+#### 1. Clone本项目
+```
+git clone https://github.com/178146582/note.git
+```
+#### 2. composer安装扩展包
 
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
+```
+composer install
+```
 
-## Laravel Sponsors
+#### 3.参考laravel安装
 
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](http://patreon.com/taylorotwell):
+> 中间省略一万步
 
-- **[Vehikl](http://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Styde](https://styde.net)**
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
+#### xx.完成
+- 给本项目一个Star~ （注意，这部尤为重要）
+- 访问你的域名即可
 
-## Contributing
+# [投喂❤点我](https://pay.52ecy.cn/?cid=23&pid=22 "投喂")
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+![](https://ws4.sinaimg.cn/large/0072Vf1ply1fwxbu85mz8j30tl0owtas.jpg)

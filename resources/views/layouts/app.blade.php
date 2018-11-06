@@ -32,6 +32,7 @@
     <meta name="description" content="萌音云笔记，一个高效的在线云笔记、专注技术文档在线创作、阅读、分享和托管" />
     <meta name="author" content="阿珏博客">
     <meta name="generator" content="萌音云笔记">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
     <link rel="stylesheet" href="//cdnjs.loli.net/ajax/libs/mdui/0.4.1/css/mdui.min.css">
     <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{asset('css/app.css')}}">
