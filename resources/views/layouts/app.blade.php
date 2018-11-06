@@ -144,6 +144,20 @@
 
 @include('layouts.login')
 
+@else
+<div class="mdui-dialog mdui-dialog-prompt mdui-dialog-open" id="move">
+	<div class="mdui-dialog-content">
+        <select class="mdui-select">
+        @foreach ($FolderInfo as $v)
+        <option value="{{$v->id}}">{{$v->name}}</option>
+        @endforeach
+        </select>
+	</div>
+	<div class="mdui-dialog-actions ">
+		<a href="javascript:void(0)" class="mdui-btn mdui-ripple mdui-text-color-primary " mdui-dialog-close>取消</a>
+		<a href="javascript:void(0)" class="mdui-btn mdui-ripple mdui-text-color-primary " id="foldermove">移动</a>
+	</div>
+</div>
 @endif
 
 @include('layouts.theme')
@@ -386,9 +400,25 @@ $(function(){
                         ]
                     });
 				}
+            },
+            {
+				text: '<i class="mdui-icon material-icons">leak_remove</i> 移动',
+				callback: function() {
+                    new mdui.Dialog('#move').open();
+				}
 			}
 		]
-	});
+    });
+    
+    $('#foldermove').click(function(){
+        $.post('{{url('api/move')}}',{
+            cid: cid,
+            id: $('select').val(),
+            _token: '{{ csrf_token() }}'
+        },function(){
+            location.reload()
+        })
+    })
 @endif
 })
 
