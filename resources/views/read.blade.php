@@ -14,7 +14,7 @@
 <div class="mdui-card">
 
     <div class="mdui-card-header">
-        <a href="{{url('/users',session('user.id'))}}">
+        <a href="{{url('/users',$res->user->id)}}">
         <img class="mdui-card-header-avatar" src="{{asset('images/'.$res->user->photo)}}"></a>
         <div class="mdui-card-header-title">{{$res->user->username}}</div>
         <div class="mdui-card-header-subtitle">{{$res->user->sign}}</div>
